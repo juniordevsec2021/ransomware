@@ -19,4 +19,5 @@ and in the quotes paste your server link which points to your .key file,for exam
 ![alt decrypt](decrypt.png)
 
 
-# Only for educational purposes!Use it on your VM for tests only!
+### Only for educational purposes!
+### Use it on your VM for tests only!
