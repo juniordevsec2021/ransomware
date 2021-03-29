@@ -3,7 +3,7 @@ ransomware POC
 * key_gen.py - [generate AES key].
 * encrypt_single_file.py - [encrypt single files].
 * decrypt.py - [decrypt all files encrypted with your key{you need to have the key in the same folder as this file}].
-* ransom.py - [encrypt most of the important files on linux/windows/mac{cross platform}, only need the target to have python!]
+* ransom.py - [encrypt most of the important files on linux/windows/mac{cross platform}only need the target to have python!I will add ms-office file extensions too!]
 * First you need to generate key then upload it on a server from which the ransomware will download it.
 * Second open the ransom.py file with text editor or with python IDLE, find this line ===>     url = ('')     <====
 and in the quotes paste your server link which points to your .key file,for example url = ('https://myserver.com/mykey.key')
