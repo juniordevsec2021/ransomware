@@ -11,4 +11,12 @@ and in the quotes paste your server link which points to your .key file,for exam
 * ### requirements:
 * python modules: pip install glob cryptography requests(you need to install them on the target and on your computer,you need to have cryptography module installed to be able to generate keys!).
 * After the ransomware is done with the encryption it deletes itself.
+
+![alt before](before.png)
+
+![alt after](after.png)
+
+![alt decrypt](decrypt.png)
+
+
 # Only for educational purposes!Use it on your VM for tests only!
